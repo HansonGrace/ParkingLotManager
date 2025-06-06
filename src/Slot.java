@@ -11,7 +11,25 @@ public class Slot {
 		this.type = type;
 		this.vehicle = null;
 		this.ticketId = null;
+		
 	}	
 	
+	public String getType() {
+		return type;
+	}
+	
+	public Vehicle getVehicle() {
+		return vehicle;
+	}
+	
+	
+	public void setVehicle(Vehicle vehicle) {
+	    this.vehicle = vehicle;
+	}
+
+	public void setTicketId(String ticketId) {
+	    this.ticketId = ticketId;
+	}
+
 
 }
