@@ -24,5 +24,6 @@ Java program that simulates a parking lot system with multiple floors and parkin
    javac *.java
 3. **Run the code**
  Run the program using:
-   `java main`
+   ```bash
+   java Main
 
